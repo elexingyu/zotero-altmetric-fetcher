@@ -1,0 +1,37 @@
+<?xml version="1.0"?>
+<?xml-stylesheet href="chrome://global/skin/" type="text/css"?>
+<?xml-stylesheet href="chrome://zotero/skin/preferences.css" type="text/css"?>
+
+<prefwindow 
+    id="altmetric-fetcher-prefs"
+    title="Altmetric Fetcher 设置"
+    xmlns="http://www.mozilla.org/keymaster/gatekeeper/there.is.only.xul">
+    
+    <prefpane id="altmetric-fetcher-prefpane" label="Altmetric Fetcher 设置">
+        <preferences>
+            <preference id="pref-altmetric-fetcher-log" name="extensions.zotero.altmetricfetcher.showLogs" type="bool"/>
+        </preferences>
+        
+        <groupbox>
+            <caption label="一般设置"/>
+            <hbox align="center">
+                <checkbox 
+                    id="altmetric-fetcher-log-checkbox" 
+                    preference="pref-altmetric-fetcher-log" 
+                    label="在 Debug 输出中显示插件日志" />
+            </hbox>
+        </groupbox>
+        
+        <groupbox>
+            <caption label="关于"/>
+            <label value="Zotero Altmetric Fetcher 插件"/>
+            <label value="版本: 0.1.0"/>
+            <label value="此插件用于从 Altmetric.com 获取文献的关注度分数"/>
+            <label 
+                class="text-link" 
+                href="https://altmetric.com" 
+                value="了解更多关于 Altmetric 的信息"/>
+        </groupbox>
+    </prefpane>
+    
+</prefwindow> 

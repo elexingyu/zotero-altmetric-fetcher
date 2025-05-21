@@ -1,0 +1,60 @@
+{
+  "name": "zotero-altmetric-fetcher",
+  "type": "module",
+  "version": "0.1.0",
+  "description": "获取和显示 Zotero 条目的 Altmetric 分数",
+  "config": {
+    "addonName": "Zotero Altmetric Fetcher",
+    "addonID": "altmetricfetcher@example.com",
+    "addonRef": "altmetricfetcher",
+    "addonInstance": "AltmetricFetcher",
+    "prefsPrefix": "extensions.zotero.altmetricfetcher"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/username/zotero-altmetric-fetcher"
+  },
+  "author": "",
+  "bugs": {
+    "url": "https://github.com/username/zotero-altmetric-fetcher/issues"
+  },
+  "homepage": "https://github.com/username/zotero-altmetric-fetcher",
+  "license": "MIT",
+  "scripts": {
+    "start": "zotero-plugin serve",
+    "build": "zotero-plugin build && tsc --noEmit",
+    "lint:check": "prettier --check . && eslint .",
+    "lint:fix": "prettier --write . && eslint . --fix",
+    "release": "zotero-plugin release",
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "update-deps": "npm update --save"
+  },
+  "dependencies": {
+    "zotero-plugin-toolkit": "^5.0.0-1"
+  },
+  "devDependencies": {
+    "@eslint/js": "^9.27.0",
+    "@types/node": "^22.15.19",
+    "eslint": "^9.27.0",
+    "prettier": "^3.5.3",
+    "typescript": "^5.8.3",
+    "typescript-eslint": "^8.32.1",
+    "zotero-plugin-scaffold": "^0.6.0",
+    "zotero-types": "^4.0.0-beta.10"
+  },
+  "prettier": {
+    "printWidth": 80,
+    "tabWidth": 2,
+    "endOfLine": "lf",
+    "overrides": [
+      {
+        "files": [
+          "*.xhtml"
+        ],
+        "options": {
+          "htmlWhitespaceSensitivity": "css"
+        }
+      }
+    ]
+  }
+} 

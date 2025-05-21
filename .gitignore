@@ -1,0 +1,17 @@
+# 构建产物
+/build
+/.scaffold
+
+# 环境变量
+.env
+
+# 依赖
+/node_modules
+
+# IDE文件
+.vscode
+.idea
+
+# 操作系统文件
+.DS_Store
+Thumbs.db 
