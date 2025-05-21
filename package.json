@@ -12,13 +12,13 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/username/zotero-altmetric-fetcher"
+    "url": "https://github.com/elexingyu/zotero-altmetric-fetcher.git"
   },
-  "author": "",
+  "author": "elexingyu",
   "bugs": {
-    "url": "https://github.com/username/zotero-altmetric-fetcher/issues"
+    "url": "https://github.com/elexingyu/zotero-altmetric-fetcher/issues"
   },
-  "homepage": "https://github.com/username/zotero-altmetric-fetcher",
+  "homepage": "https://github.com/elexingyu/zotero-altmetric-fetcher",
   "license": "MIT",
   "scripts": {
     "start": "zotero-plugin serve",
